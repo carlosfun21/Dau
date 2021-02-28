@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30523.141
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dau", "Dau\Dau.csproj", "{48930C96-6CF9-42BF-A2C7-E73D834CD539}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{48930C96-6CF9-42BF-A2C7-E73D834CD539}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48930C96-6CF9-42BF-A2C7-E73D834CD539}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48930C96-6CF9-42BF-A2C7-E73D834CD539}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48930C96-6CF9-42BF-A2C7-E73D834CD539}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FA6302A0-995B-494F-8963-FD1C6ACABC86}
+	EndGlobalSection
+EndGlobal
