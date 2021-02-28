@@ -1,12 +1,20 @@
 ﻿using System;
-
-namespace Dau
+namespace TiraElDau
 {
-    class Program
+    public class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            ConsoleKeyInfo tecla;
+            int resultat = 0;
+            Random tirar = new Random();
+            Console.WriteLine("Prem una tecla per tirar el dau");
+            do
+            {
+                tecla = Console.ReadKey();
+                resultat = tirar.Next(1, 6);
+                Console.WriteLine("El resultat de tirar el dau és " + resultat);
+            } while (tecla.Key != ConsoleKey.Escape);
         }
     }
 }
